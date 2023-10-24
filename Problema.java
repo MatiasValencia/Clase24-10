@@ -1,6 +1,7 @@
 public class Problema {
-    //Atributos
     public static void main(String[] args) {
+        String AFP = "Modelo";
+        String Salud = "Fonasa";
         String[] listaAFP = new String[4];
         listaAFP[0] = "Modelo";
         listaAFP[1] = "Habitat";
@@ -22,6 +23,13 @@ public class Problema {
         descSalud[2] = 0.10;
         descSalud[3] = 0.11;
 
-        
+        for (int i = 0; i < 4; i++) {
+            if (listaAFP[i] == AFP) {
+                
+            }
+            if (listaSalud[i] == Salud) {
+
+            }
+        }
     }
 }
